@@ -1,7 +1,7 @@
 // "use client";
 // import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-// import "./globals.css";
+import "./globals.css";
 import Header from "./features/header/header";
 import { Children, ReactNode } from "react";
 // const inter = Inter({ subsets: ["latin"] });
@@ -17,11 +17,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ja">
-      <body>
-        <Header />
-        {children}
-      </body>
-    </html>
+    // <html lang="ja">
+    <body>
+      <Header />
+      {children}
+    </body>
+    // </html>
   );
 }

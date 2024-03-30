@@ -32,8 +32,3 @@ body {
   background-color: #aebae4;
   border: solid 2px #ccc;
 }
-
-main {
-  flex: 1;
-  height: 100%;
-}

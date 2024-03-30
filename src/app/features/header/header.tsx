@@ -3,19 +3,16 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <>
-      <div style={headerWrap}>
-        {/* <Link> */}
-        <Image alt="通知" src="/image/notice_icon.svg" width={18} height={24} />
-        {/* </Link> */}
-        <Image
-          alt="ロゴ"
-          src="/image/faveTag_logo.svg"
-          width={62}
-          height={30}
-        />
-      </div>
-    </>
+    <div style={headerWrap}>
+      <Image alt="通知" src="./image/notice_icon.svg" width={18} height={24} />
+      <Image alt="ロゴ" src="./image/faveTag_logo.svg" width={62} height={30} />
+      <Image
+        alt="アコーディオンメニュー"
+        src="./image/menu_icon.svg"
+        width={18}
+        height={24}
+      />
+    </div>
   );
 }
 
